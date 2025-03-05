@@ -1,0 +1,321 @@
+.custom-navbar {
+  background-color: #333; /* Dark background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the navbar */
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: #fff; /* Toggler border color */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #fff; /* Toggler icon color */
+}
+
+
+/* Style for the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set width of the vertical scrollbar */
+  height: 8px; /* Set height of the horizontal scrollbar */
+}
+
+/* Style for the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background */
+  border-radius: 10px;
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker gray for thumb */
+  border-radius: 10px;
+}
+
+/* On hover, make the thumb slightly darker */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker gray when hovered */
+}
+
+/* Optional: Style for horizontal scrollbar */
+::-webkit-scrollbar-horizontal {
+  height: 8px; /* Customize the horizontal scrollbar height */
+}
+
+
+
+
+/* For devices with a max-width of 600px (mobile devices) */
+@media (max-width: 600px) {
+  .logo {
+    width: 10vw; /* Adjust this value as per your needs */
+    height: 10vw; /* Keep the height the same */
+  }
+}
+
+/* You can also set specific breakpoints for tablet, desktop, etc., if needed */
+@media (min-width: 601px) {
+  .logo {
+    width: 10vw; /* For larger screens, use the default width */
+    height: 10w;
+  }
+}
+
+
+/* src/components/Footer.css */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
+
+/* In your global CSS or a component-level CSS file */
+body {
+  background: url(./assets/fashion.jpg) no-repeat center center/cover;
+  min-height: 100vh;
+  
+}
+
+
+
+
+
+
+/* src/pages/AboutUs.css */
+
+.about-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* Beyaz arka plan */
+  color: #333333; /* Normal koyu metin rengi */
+  margin: 0;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto; /* İçeriği ortalamak */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Profesyonel bir görünüm için hafif gölge */
+  z-index: 10000;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h2 {
+  font-size: 36px;
+  color: #444444; /* Başlık için biraz daha koyu renk */
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #888888;
+}
+
+.about-content {
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-footer {
+  text-align: center;
+  font-size: 16px;
+  color: #777777;
+}
+
+
+
+
+
+/* src/pages/TermsOfService.css */
+
+.terms-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h2 {
+  font-size: 36px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.terms-container h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.terms-container p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.terms-container .intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.terms-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms-container a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* src/pages/ContactUs.css */
+
+.contact-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  font-size: 36px;
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-container .intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-details {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-container strong {
+  font-weight: 600;
+  color: #333;
+}
+
+
+/* src/pages/PrivacyPolicy.css */
+
+.privacy-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-container h2 {
+  font-size: 36px;
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.privacy-container .intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.privacy-container h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+}
+
+.privacy-container p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.privacy-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.privacy-container a:hover {
+  text-decoration: underline;
+}
+
+.privacy-container strong {
+  font-weight: 600;
+  color: #333;
+}
+
+
